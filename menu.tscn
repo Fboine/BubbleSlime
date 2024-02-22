@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://bg6uc6hd0yddu"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchor_right = 0.374
+anchor_bottom = 1.0
+offset_right = 0.151978
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 545.0
+offset_right = 390.0
+offset_bottom = 647.0
+
+[node name="Resto" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "Bubble Tea"
+
+[node name="Chasse" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "Chasse"
+
+[node name="Option" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "Options"
